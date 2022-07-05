@@ -19,10 +19,6 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
-        
-    - name: Build Lambda package to Destroy...
-      run: |
-        sh k8s/scripts/build_lambda_package.sh
     
     - name: HashiCorp - Setup Terraform
       uses: hashicorp/setup-terraform@v1.2.1

@@ -30,7 +30,7 @@ DATE='{{ ds }}'
 EMR_CONFIG = {
     'Name': f'AWS-SERASA-DATA-ENGINEER-{DATE}',
     "ReleaseLabel": "emr-6.7.0",
-    "LogUri": "s3://emr-logs-vini/",
+    "LogUri": "s3://emr-logs-vini-serasa/",
     "Applications": [
         {
             "Name": "Hadoop"
